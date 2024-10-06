@@ -39,7 +39,6 @@ Once compiled, you can use the assembler to translate an assembly file (named <s
     ./assembler <source_file>
 
 You can enter several files at once, by separating their names with a space - ` `:
-follows:
 
     ./assembler <source_file_1> <source_file_2>
 
