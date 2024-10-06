@@ -38,12 +38,12 @@ Once compiled, you can use the assembler to translate an assembly file (named <s
 
     ./assembler <source_file>
 
-You can enter several files at once, by seperating their names with a space - ` `:
+You can enter several files at once, by separating their names with a space - ` `:
 follows:
 
     ./assembler <source_file_1> <source_file_2>
 
-If your file name or path contain spcaces, make sure to include quotation marks for proper operation:
+If your file name or path contain spaces, make sure to include quotation marks for proper operation:
 
     ./assembler "folder/sub folder/<source_file_1>" <source_file_2>
 
