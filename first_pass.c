@@ -409,7 +409,7 @@ needLabelNode *new_need_label(const char *stage, char *name, int location, int r
 int build_operand_word(ERR_DETAILS_SIG, short int codeImage[], int *IC, char *currentOp, int currentAddRes, int opType, symbolNode *head, needLabelNode **needLHead)
 {
 	short int base = 0,
-			  value,
+			  value = 0,
 			  tempValue = INT_FUNC_ERROR; /* if tempValue will not be updated during the operation, it will hold an int that's out of range */
 
 	needLabelNode *nlHead = *needLHead;
